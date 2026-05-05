@@ -22,5 +22,13 @@ public class Main {
         c3.incrementTotalCount();
         System.out.println(c3);
         System.out.println();
+
+        System.out.println("Run calculator");
+        System.out.println(Calculator.addition(3,7));
+        System.out.println(Calculator.subtraction(10,7));
+        System.out.println(Calculator.multiplication(3,2));
+        System.out.println(Calculator.division(20,6));
+        System.out.println(Calculator.division(0,6));
+        System.out.println(Calculator.division(2,0));
     }
 }

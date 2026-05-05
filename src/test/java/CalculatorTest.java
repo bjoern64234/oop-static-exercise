@@ -46,4 +46,15 @@ class CalculatorTest {
         // Then
         assertEquals(expected, result);
     }
+
+    @Test
+    void division_isZeroByDivisionByZero() {
+        // Given
+        int a = 10, b = 0;
+        double expected = 0;
+        // When
+        double result = Calculator.division(a, b);
+        // Then
+        assertEquals(expected, result);
+    }
 }
